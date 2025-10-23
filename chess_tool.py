@@ -90,11 +90,11 @@ openings = {
     "Positional": "Queen's Gambit (White) / Caro-Kann (Black)",
     "Dynamic": "London System (White) / King's Indian Defense (Black)",
     "Theorist": "Ruy López (White), Sicilian Najdorf (Black)",
-    "Intuitive": "English Opening, Dutch Defense (Black)"
+    "Intuitive": "English Opening (White), Dutch Defense (Black)"
 }
 
 # Final Message
 print("\n### Results ###")
 print(f"Hello {username}!, your primary chess style is: {primary_style}!")
-print(f"Recommended opening: {openings[primary_style]}")
+print(f"Recommended openings: {openings[primary_style]}")
 print(f"Total points by style: {styles_value}")
